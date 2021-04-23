@@ -15,7 +15,7 @@ public class LoginPageFacebook {
 	@Given("Open the browser")
 	public void open_the_browser() {
 		System.out.println("Opening the browser");
-		System.setProperty("webdriver.chrome.driver", "F:\\SeleniumFramework\\com.testselenium.framework\\driver\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "C:\\Users\\Nitya Krushna Sahoo\\Selenium Stuff\\chromedriver_win32\\chromedriver.exe");
 		// Initialize browser
 		driver=new ChromeDriver();
 		driver.manage().window().maximize();
